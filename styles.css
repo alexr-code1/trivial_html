@@ -1,0 +1,83 @@
+#grid-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#grid {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#grid td {
+    width: 30px;
+    height: 30px;
+    border: none;
+}
+
+.highlighted {
+    font-weight: bold;
+}
+
+.highlighted.red {
+    background-color: red;
+    color: white;
+}
+
+.highlighted.green {
+    background-color: green;
+    color: white;
+}
+
+.highlighted.yellow {
+    background-color: yellow;
+}
+
+.highlighted.blue {
+    background-color: blue;
+    color: white;
+}
+
+.highlighted.light-grey {
+    background-color: #f7f7f7;
+}
+
+#cell-B2,
+#cell-B3,
+#cell-B4,
+#cell-B6,
+#cell-B7,
+#cell-B8,
+#cell-C2,
+#cell-C3,
+#cell-C4,
+#cell-C6,
+#cell-C7,
+#cell-C8,
+#cell-D2,
+#cell-D3,
+#cell-D4,
+#cell-D6,
+#cell-D7,
+#cell-D8,
+#cell-F2,
+#cell-F3,
+#cell-F4,
+#cell-F6,
+#cell-F7,
+#cell-F8,
+#cell-G2,
+#cell-G3,
+#cell-G4,
+#cell-G6,
+#cell-G7,
+#cell-G8,
+#cell-H2,
+#cell-H3,
+#cell-H4,
+#cell-H6,
+#cell-H7,
+#cell-H8 {
+    background-color: transparent;
+    color: black;
+}
